@@ -28,7 +28,7 @@ body{
 
 .banner{
     position: relative;
-    background: url(./img/Meu_bem_img/img..1.jpg) no-repeat center center/cover;
+    background: url(./img/Meu_bem_img/justos2.jpg) no-repeat center center/cover;
     padding: 120px 1rem 2rem;
     background-size: cover;
 }
@@ -91,17 +91,17 @@ body{
     padding-bottom: 20px;
 }
 .swiper-slide {
-    width: auto;
+    width: auto !important;
 }
 .swiper-slide img{
     display: block;
-    width: 200px;
+    width: 250px;
     border-radius: 5%;
     margin: 0 auto;
 }
-@media(min-width: 900px){
-    .swiper-slide img {
-        width: 1000px;
+@media(min-width: 1000px){
+    .swiper-slide img{
+        width: 600px;
     }
 }
 footer{
